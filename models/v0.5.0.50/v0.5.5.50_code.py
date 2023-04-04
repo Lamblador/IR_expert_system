@@ -4,9 +4,9 @@ import torch
 import torch.nn.functional as F
 
 
-class IrResnet4(nn.Module):
+class IrResnet3(nn.Module):
     def __init__(self, hidden_size = 34, class_nums=17):
-        super(IrResnet4, self).__init__()
+        super(IrResnet3, self).__init__()
         self.hidden_size=hidden_size
         # Архитектура на подобие resnet
         self.conv1 = nn.Conv1d(3, hidden_size, kernel_size=3, stride=2, padding = 1) #[3,899]

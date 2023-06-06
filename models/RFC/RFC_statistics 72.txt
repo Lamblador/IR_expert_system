@@ -1,0 +1,79 @@
+                                                                                                                   precision    recall  f1-score   support
+
+                               C─H alkyl methyl 1260 strong/1380 weak/2870 medium to strong/2960 medium to strong       0.82      0.92      0.87      2441
+                                      C─H alkyl methylene 1470 strong/2850 medium to strong/2925 medium to strong       0.81      0.89      0.85      2289
+                                                                                      C─H alkyl methine 2890 weak       0.74      0.33      0.45       909
+                                                               C─H vinyl C═CH2 900 strong/2975 medium/3080 medium       0.94      0.28      0.43       207
+                                                                                       C─H vinyl C═CH 3020 medium       0.90      0.24      0.38       435
+                                                          C─H vinyl monosubstituted alkenes 900 strong/990 strong       0.95      0.24      0.38       146
+                                                               C─H vinyl cis-disubstituted alkenes 670–700 strong       0.83      0.04      0.07       132
+                                                                 C─H vinyl trans-disubstituted alkenes 965 strong       0.83      0.04      0.07       132
+                                                        C─H vinyl trisubstituted alkenes 800–840 strong to medium       0.83      0.04      0.07       134
+                                                                      C─H aromatic benzene/sub. benzene 3070 weak       0.88      0.95      0.91      2241
+                                                              C─H aromatic monosubstituted benzene 700–750 strong       0.95      0.36      0.52       562
+                                                              C─H aromatic monosubstituted benzene 690–710 strong       0.95      0.36      0.52       562
+                                                                     C─H aromatic ortho-disub. benzene 750 strong       0.93      0.10      0.19       384
+                                                                  C─H aromatic meta-disub. benzene 750–800 strong       1.00      0.01      0.02       125
+                                                                  C─H aromatic meta-disub. benzene 860–900 strong       1.00      0.01      0.02       125
+                                                                  C─H aromatic para-disub. benzene 800–860 strong       0.94      0.04      0.08       411
+                                                                                      C─H alkynes any 3300 medium       1.00      0.22      0.36        36
+                                                                                    C─H aldehydes any 2720 medium       1.00      0.35      0.51       107
+                                                                                    C─H aldehydes any 2820 medium       1.00      0.35      0.51       107
+                                                                     C═C acyclic C═C monosub. alkenes 1645 medium       0.95      0.24      0.38       146
+                                                                   C═C acyclic C═C 1,1-disub. alkenes 1655 medium       0.94      0.28      0.43       207
+                                                               C═C acyclic C═C cis-1,2-disub. alkenes 1660 medium       0.93      0.15      0.26       348
+                                                             C═C acyclic C═C trans-1,2-disub. alkenes 1675 medium       0.93      0.15      0.26       348
+                                                             C═C acyclic C═C trisub., tetrasub. alkenes 1670 weak       0.92      0.13      0.23       254
+                                                                C═C conjugated C═C dienes 1600 strong/1650 strong       0.00      0.00      0.00        38
+                                                                         C═C with benzene ring dienes 1625 strong       1.00      0.02      0.04       194
+                                                                                  C═C with C═O dienes 1600 strong       1.00      0.04      0.08       175
+                                                                          C═C C═C (both sp2) any 1640–1680 medium       0.95      0.30      0.45       546
+                                         C═C aromatic C═C any 1450/1500/1580/1600 weak to strong (usually 3 or 4)       0.89      0.96      0.92      2302
+                                                                          C═C C≡C terminal alkynes 2100–2140 weak       1.00      0.22      0.36        36
+                                           C═C C≡C disubst. alkynes 2190–2260 very weak (often indistinguishable)       1.00      0.16      0.28        37
+                                                     C=O aldehyde/ketone saturated aliph./cyclic 6-membered 1720        0.89      0.50      0.64       746
+                                                                        C=O aldehyde/ketone α,β-unsaturated 1685        1.00      0.01      0.02        80
+                                                                       C=O aldehyde/ketone aromatic ketones 1685        0.88      0.47      0.61       518
+                                   C=O aldehyde/ketone aldehydes 1725 influenced by conjugation (as with ketones)       1.00      0.39      0.56        88
+                                                  C=O carboxylic acids/derivates saturated carboxylic acids 1710        0.90      0.54      0.68       225
+                                            C=O carboxylic acids/derivates unsat./aromatic carb. acids 1680–1690        0.91      0.21      0.35        98
+C=O carboxylic acids/derivates esters and lactones 1735 influenced by conjugation and ring size (as with ketones)       0.90      0.64      0.74       463
+                                                                  C=O carboxylic acids/derivates anhydrides 1760        0.00      0.00      0.00        18
+                                                                  C=O carboxylic acids/derivates anhydrides 1820        0.00      0.00      0.00        18
+                                                                C=O carboxylic acids/derivates acyl halides 1800        0.00      0.00      0.00        36
+                                                     C=O carboxylic acids/derivates amides 1650 associated amides       0.88      0.20      0.33       260
+                                                 C=O carboxylic acids/derivates amino acid zwitterions 1550–1610        1.00      0.14      0.25         7
+                             O─H alcohols, phenols low concentration 3610–3670/high concentration 3200–3400 broad       0.97      0.11      0.20       276
+                                   O─H carboxylic acids low concentration 3500–3560/high concentration 3000 broad       0.90      0.54      0.68       225
+                                                         N─H primary amines any 3400–3500 strong/1560–1640 strong       0.90      0.25      0.39       380
+                                                                   N─H secondary amines any > 3000 weak to medium       0.86      0.20      0.33       421
+                                                             N─H ammonium ions any 2400–3200 multiple broad peaks       0.00      0.00      0.00        18
+                                                                     C─O alcohols primary 1040–1060 strong, broad       0.93      0.21      0.34       186
+                                                                             C─O alcohols secondary ~ 1100 strong       0.96      0.25      0.40       172
+                                                                           C─O alcohols tertiary 1150–1200 medium       0.92      0.17      0.29        71
+                                                                                             C─O phenols any 1200       0.97      0.11      0.20       276
+                                                                                        C─O ethers aliphatic 1120       1.00      0.11      0.20       166
+                                                                                    C─O ethers aromatic 1220–1260       1.00      0.05      0.10        20
+                                                                               C─O carboxylic acids any 1250–1300       0.90      0.54      0.68       225
+                      C─O esters any 1100–1300 two bands (distinct from ketones, which do not possess a C─O bond)       0.90      0.64      0.74       456
+                                                              C─N aliphatic amines any 1020–1220 often overlapped       0.81      0.35      0.49       714
+                                                         C─N C═N any 1615–1700 similar conjugation effects to C═O       0.96      0.36      0.53       151
+                                                                      C─N C≡N (nitriles) unconjugated 2250 medium       0.00      0.00      0.00       150
+                                                                        C─N C≡N (nitriles) conjugated 2230 medium       0.00      0.00      0.00        11
+                                                                            C─N R─N─C (isocyanides) any 2165–2110       0.96      0.37      0.53       150
+                                                                      C─N R─N═C═S (isothiocyanates) any 2140–1990       0.96      0.86      0.91        57
+                                                                             C─X fluoroalkanes ordinary 1000–1100       1.00      0.22      0.37       165
+                                              C─X fluoroalkanes trifluoromethyl 1100–1200 two strong, broad bands       0.97      0.23      0.37       136
+                                                                     C─X chloroalkanes any 540–760 weak to medium       0.87      0.06      0.12       209
+                                                                    C─X bromoalkanes any 500–600 medium to strong       1.00      0.02      0.04       109
+                                                                         C─X iodoalkanes any 500 medium to strong       0.00      0.00      0.00        16
+                                                N─O nitro compounds aliphatic 1540 stronger/aliphatic 1380 weaker       0.00      0.00      0.00        14
+                                                 N─O nitro compounds aromatic 1520 lower/1350 lower if conjugated       0.98      0.19      0.32       238
+                                                          P─C Organophosphorus compound aromatic 1440-1460 medium       0.00      0.00      0.00        19
+                                                                     P─O phosphorus oxide bonded 1195-1250 strong       1.00      0.07      0.12        61
+                                                                       P─O phosphorus oxide free 1250-1300 strong       1.00      0.06      0.12        63
+
+                                                                                                        micro avg       0.86      0.53      0.66     23828
+                                                                                                        macro avg       0.80      0.24      0.33     23828
+                                                                                                     weighted avg       0.87      0.53      0.59     23828
+                                                                                                      samples avg       0.85      0.59      0.66     23828

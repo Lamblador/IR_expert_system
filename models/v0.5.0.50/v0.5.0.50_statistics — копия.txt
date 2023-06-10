@@ -1,0 +1,24 @@
+                  precision    recall  f1-score   support
+
+          alkane       0.97      0.96      0.97       795
+          methyl       0.97      0.95      0.96       710
+          alkene       0.96      0.75      0.84       155
+          alkyne       1.00      0.40      0.57        25
+        alcohols       0.99      0.93      0.96       257
+          amines       0.97      0.78      0.87       162
+        nitriles       1.00      0.11      0.20        63
+       aromatics       0.99      0.98      0.98       747
+   alkyl halides       0.95      0.89      0.92       321
+          esters       0.98      0.91      0.94       148
+         ketones       0.98      0.79      0.87       108
+       aldehydes       1.00      0.40      0.57        15
+carboxylic acids       0.98      0.84      0.90        62
+           ether       0.99      0.93      0.96       297
+    acyl halides       0.00      0.00      0.00        15
+          amides       1.00      0.66      0.79        79
+           nitro       0.98      0.78      0.87        73
+
+       micro avg       0.97      0.90      0.93      4032
+       macro avg       0.92      0.71      0.78      4032
+    weighted avg       0.97      0.90      0.93      4032
+     samples avg       0.97      0.90      0.92      4032

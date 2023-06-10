@@ -1,5 +1,7 @@
 # IR expert system
+
 ##En abstract
+
 This project is aimed on the creating IR expert system which will help scientists 
 with boring and non informative IR spectra handling. 
 During the work from 01.2023 to 06.2023 I manage to code some instruments 

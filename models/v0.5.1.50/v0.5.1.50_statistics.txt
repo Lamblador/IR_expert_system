@@ -1,24 +1,24 @@
                   precision    recall  f1-score   support
 
-          alkane       0.97      0.96      0.97       811
-          methyl       0.98      0.95      0.96       745
-          alkene       1.00      0.81      0.90       170
-          alkyne       1.00      0.41      0.58        22
-        alcohols       0.95      0.91      0.93       269
-          amines       0.98      0.80      0.88       147
-        nitriles       1.00      0.27      0.43        48
-       aromatics       0.98      0.98      0.98       699
-   alkyl halides       0.95      0.86      0.90       321
-          esters       0.99      0.89      0.94       127
-         ketones       0.99      0.70      0.82       112
-       aldehydes       1.00      0.42      0.59        26
-carboxylic acids       0.97      0.89      0.93        74
-           ether       0.99      0.88      0.93       262
-    acyl halides       0.00      0.00      0.00         8
-          amides       0.96      0.55      0.70        84
-           nitro       1.00      0.73      0.84        55
+          alkane       0.97      0.96      0.96       834
+          methyl       0.95      0.95      0.95       733
+          alkene       0.97      0.82      0.89       177
+          alkyne       0.95      0.82      0.88        22
+        alcohols       0.96      0.92      0.94       249
+          amines       0.98      0.90      0.94       146
+        nitriles       1.00      0.41      0.59        41
+       aromatics       0.99      0.98      0.98       670
+   alkyl halides       0.94      0.87      0.90       297
+          esters       0.96      0.92      0.94       142
+         ketones       0.99      0.86      0.92       112
+       aldehydes       1.00      0.66      0.79        32
+carboxylic acids       0.99      0.86      0.92        79
+           ether       0.97      0.92      0.94       309
+    acyl halides       0.00      0.00      0.00        11
+          amides       0.97      0.75      0.85        84
+           nitro       0.98      0.81      0.89        63
 
-       micro avg       0.98      0.89      0.93      3980
-       macro avg       0.92      0.71      0.78      3980
-    weighted avg       0.98      0.89      0.93      3980
-     samples avg       0.97      0.90      0.92      3980
+       micro avg       0.97      0.92      0.94      4001
+       macro avg       0.91      0.79      0.84      4001
+    weighted avg       0.96      0.92      0.94      4001
+     samples avg       0.96      0.92      0.93      4001

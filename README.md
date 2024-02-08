@@ -36,3 +36,7 @@ All rights on jcam spectra are reserved by NIST or another host. Not to me.
 с уведомлением для меня. И требует ссылок на источник. 
 Хотя бы просто ссылка, не более))
 Все права на jcam spectra принадлежат NIST или другому хозяину данных. Но не мне.
+
+Reference to cite
+http://dx.doi.org/10.1177/00037028241226732
+

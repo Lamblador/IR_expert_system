@@ -1,42 +1,10 @@
-# IR expert system
+# Обработка спектров и разметка функциональных групп
 
-##En abstract
+## Основные возможности
 
-This project is aimed on the creating IR expert system which will help scientists 
-with boring and non informative IR spectra handling. 
-During the work from 01.2023 to 06.2023 I manage to code some instruments 
-for training models for IR classification with 17 and 72 classes in Dataset.
-
-Code was build in ColabNotebooks on python. 
-All notebooks arranged in the order of numbers in the headline. 
-More comments incide notebooks.
-
-Licence and rights
-All rights for this code and models are reserved.
-Every part of code should be used with permission from me or
-with notification to me. And requires links for the source. 
-At least just link, no more))
-All rights on jcam spectra are reserved by NIST or another host. Not to me. 
-
-##Русский заголовок
-
-Этот проект направлен на создание ИК-экспертной системы, которая поможет ученым
-в обработке рутинных анализов малоинформативных ИК-спектров. 
-Во время работы с 01.2023 по 06.2023 мне удалось реализовать некоторые инструменты
-для обучения моделей для ИК-классификации с 17 и 72 классами в наборе данных.
-
-Код был собран в Colab Notebooks на python. 
-Все блокноты пронумерованы цифрами в заголовке. 
-Больше комментариев в Notebook'ах.
-
-Лицензия и права
-
-Все права на этот код и модели защищены.
-Каждая часть кода должна использоваться с разрешения меня или
-с уведомлением для меня. И требует ссылок на источник. 
-Хотя бы просто ссылка, не более))
-Все права на jcam spectra принадлежат NIST или другому хозяину данных. Но не мне.
-
-Reference to cite
-http://dx.doi.org/10.1177/00037028241226732
-
+* **Интеграция и нормализация спектров:** Парсинг файлов `.jdx` / `.dx` с помощью `jcamp`, нормализация названий колонок по словарю `COLUMN_MAPPING` и векторизованная интерполяция спектров на единую сетку волновых чисел (500–4100 cm⁻¹, шаг 2.0 cm⁻¹) через `numpy.interp` в формате `float32`.
+* **Каскадное многопоточное обогащение SMILES (`fast_enrich_and_sync`):** Параллельный поиск пропущенных SMILES (`ThreadPoolExecutor`) по логике `fetch_smiles_smart` — приоритетно по CAS через PubChem API и NCI Cactus API, с резервным фоллбэком по названию соединения (`Title`).
+* **Расчет химических метаданных в RDKit:** Автоматическая генерация идентификаторов `InChI` и `InChIKey`, расчет брутто-формулы (`CalcMolFormula`) и точной молярной массы `Mw` (`Descriptors.MolWt`, с округлением до 4 знаков) для всех валидных SMILES-структур.
+* **Взвешенная дедупликация данных (`calc_score`):** Расчет индекса информативности `info_score` на основе весов заполненных полей для автоматического отбора наиболее полной записи при удалении дубликатов по `CAS`.
+* **Разметка 17 функциональных групп:** Формирование вектора бинарных меток $y \in \{0, 1\}^{17}$ на основе подструктурного поиска RDKit по SMARTS-шаблонам.
+* **Аналитика и контроль качества:** Встроенная проверка пропусков и качества валидации данных (аудит `InChI`), а также визуализация распределений классов и мульти-меток на базе `seaborn` (`magma` palette).
